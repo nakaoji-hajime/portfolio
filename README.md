@@ -1,32 +1,13 @@
-# React + TypeScript + Vite
+## 公開URL
+- [https://nakaoji-hajime.github.io/portfolio/](https://nakaoji-hajime.github.io/portfolio/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## ローカル開発
 
-Currently, two official plugins are available:
+- 開発環境立ち上げ `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 本番公開（GitHub Pages）までの手順
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. コードを編集する
+2. ローカルで確認 `npm run dev`
+3. ビルドして問題がないかエラー確認 `npm run build`
+4. デプロイ（GitHub Pagesに反映） `npm run deploy`

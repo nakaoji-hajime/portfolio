@@ -60,7 +60,7 @@ function App() {
         
         <div className="relative z-10 max-w-3xl mx-auto text-center px-6 text-white">
           <h1 className="text-6xl md:text-7xl font-light tracking-tighter mb-6">
-            UI/UX Designer<br />&amp; Front-end Developer
+            UI/UX Designer
           </h1>
           <p className="text-xl md:text-2xl max-w-md mx-auto opacity-90">
             シンプルで機能的な体験を設計し、<br />ビジネス成果に直結するプロダクトを作ります。
