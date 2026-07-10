@@ -34,11 +34,6 @@ const projects: Project[] = [
   }
 ];
 
-const careerHistory = [
-  { company: "株式会社テックソリューションズ", role: "UI/UX Designer & Front-end Engineer", period: "2023.04 - 現在", description: "プロダクトのUI設計からフロントエンド実装まで担当。" },
-  { company: "デザインスタジオXYZ", role: "Junior UI Designer", period: "2021.10 - 2023.03", description: "クライアントワークを中心にWeb・アプリデザインを担当。" }
-];
-
 function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
